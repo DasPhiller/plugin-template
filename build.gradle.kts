@@ -23,7 +23,7 @@ dependencies {
     implementation("net.axay:kspigot:1.18.2")
     
     //Extensions dependency
-    implementation("com.github.dasphiller:extensions:1.2")
+    implementation("com.github.dasphiller:extensions:2.0")
 }
 
 tasks {
