@@ -12,7 +12,6 @@ version = "1.0.0"
 
 repositories {
     mavenCentral()
-    maven("https://jitpack.io")
 }
 
 dependencies {
@@ -23,7 +22,7 @@ dependencies {
     implementation("net.axay:kspigot:1.18.2")
     
     //Extensions dependency
-    implementation("com.github.dasphiller:extensions:2.0")
+    implementation("de.dasphiller.extensions:extensions:2.0")
 }
 
 tasks {
@@ -52,5 +51,6 @@ bukkit {
     version = getVersion().toString()
     libraries = listOf(
         "net.axay:kspigot:1.18.2",
+        "de.dasphiller.extensions:extensions:2.0"
     )
 }
