@@ -54,4 +54,5 @@ bukkit {
         "net.axay:kspigot:1.18.2",
         "de.dasphiller.extensions:extensions:2.1"
     )
+    prefix = "ExamplePlugin"
 }
