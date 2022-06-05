@@ -1,5 +1,5 @@
 val javaVersion = 17 // Minecraft 1.18 requires Java 17
-val extensionsVersion = 2.2
+val extensionsVersion = 2.3
 
 plugins {
     kotlin("jvm") version "1.6.21"
@@ -52,7 +52,7 @@ bukkit {
     version = getVersion().toString()
     libraries = listOf(
         "net.axay:kspigot:1.18.2",
-        "de.dasphiller.extensions:extensions:2.2"
+        "de.dasphiller.extensions:extensions:$extensionsVersion"
     )
     prefix = "ExamplePlugin"
 }
