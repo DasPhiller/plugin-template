@@ -1,5 +1,5 @@
 val javaVersion = 17 // Minecraft 1.18 requires Java 17
-val extensionsVersion = 2.4
+val extensionsVersion = 3.0
 
 plugins {
     kotlin("jvm") version "1.6.21"
