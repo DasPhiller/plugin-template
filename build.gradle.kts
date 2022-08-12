@@ -17,10 +17,10 @@ repositories {
 
 dependencies {
     // PaperMC Dependency
-    paperDevBundle("1.19-R0.1-SNAPSHOT")
+    paperDevBundle("1.19.2-R0.1-SNAPSHOT")
 
     // KSpigot dependency
-    implementation("net.axay:kspigot:1.19.0")
+    implementation("net.axay", "kspigot", "1.19.0")
     
     //Extensions dependency
     implementation("de.dasphiller.extensions:extensions:$extensionsVersion")
