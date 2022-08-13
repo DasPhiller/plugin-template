@@ -1,5 +1,5 @@
 # KSpigot Gradle Kotlin Template
-This is a template for creating a [Paper Plugin](https://papermc.io) with [KSpigot](https://github.com/jakobkmar/kspigot), [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html) and the [Kotlin](https://kotlinlang.org) programming language.
+This is a template for creating a [Paper Plugin](https://papermc.io) with [KSpigot](https://github.com/jakobkmar/kspigot), [Gradle Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html), [Extensions](https://github.com/pcreatekt/extensions) and the [Kotlin](https://kotlinlang.org) programming language.
 
 ## How to use
 1. Click [**Use this template**](../../generate) at the top.
