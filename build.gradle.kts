@@ -44,7 +44,7 @@ tasks {
 
 bukkit {
     name = "ExamplePlugin"
-    apiVersion = "1.18"
+    apiVersion = "1.19"
     authors = listOf(
         "Your Name",
     )
