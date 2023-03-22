@@ -39,6 +39,9 @@ tasks {
     assemble {
         dependsOn(reobfJar)
     }
+    runServer {
+        minecraftVersion("1.19.3")
+    }
 }
 
 
