@@ -1,11 +1,11 @@
 val javaVersion = 17 // Minecraft 1.18 requires Java 17
-val extensionsVersion = "4.3"
+val extensionsVersion = "4.3.1"
 
 plugins {
-    kotlin("jvm") version "1.7.0"
-    id("io.papermc.paperweight.userdev") version "1.4.0"
+    kotlin("jvm") version "1.8.10"
+    id("io.papermc.paperweight.userdev") version "1.5.0"
     id("xyz.jpenilla.run-paper") version "1.1.0"
-    id("net.minecrell.plugin-yml.bukkit") version "0.5.2"
+    id("net.minecrell.plugin-yml.bukkit") version "0.5.3"
 }
 
 group = "org.example"
@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     // PaperMC Dependency
-    paperDevBundle("1.19.2-R0.1-SNAPSHOT")
+    paperDevBundle("1.19.3-R0.1-SNAPSHOT")
 
     // KSpigot dependency
     implementation("net.axay", "kspigot", "1.19.1")
