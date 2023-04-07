@@ -2,7 +2,7 @@ val javaVersion = 17 // Minecraft 1.19 requires Java 17
 val extensionsVersion = "4.3.4"
 
 plugins {
-    kotlin("jvm") version "1.8.10"
+    kotlin("jvm") version "1.8.20"
     id("io.papermc.paperweight.userdev") version "1.5.0"
     id("xyz.jpenilla.run-paper") version "1.1.0"
     id("net.minecrell.plugin-yml.bukkit") version "0.5.3"
@@ -17,10 +17,10 @@ repositories {
 
 dependencies {
     // PaperMC Dependency
-    paperDevBundle("1.19.3-R0.1-SNAPSHOT")
+    paperDevBundle("1.19.4-R0.1-SNAPSHOT")
 
     // KSpigot dependency
-    implementation("net.axay", "kspigot", "1.19.1")
+    implementation("net.axay", "kspigot", "1.19.2")
     
     //Extensions dependency
     implementation("de.dasphiller.extensions:extensions:$extensionsVersion")
@@ -40,7 +40,7 @@ tasks {
         dependsOn(reobfJar)
     }
     runServer {
-        minecraftVersion("1.19.3")
+        minecraftVersion("1.19.4")
     }
 }
 
