@@ -22,6 +22,8 @@ dependencies {
     // KSpigot dependency
     implementation("net.axay", "kspigot", "1.19.2")
     
+    library(kotlin("stdlib"))
+    
     //Extensions dependency
     implementation("de.dasphiller.extensions:extensions:$extensionsVersion")
 }
