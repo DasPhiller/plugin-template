@@ -54,7 +54,7 @@ bukkit {
     main = "$group.exampleplugin.ExamplePlugin"
     version = getVersion().toString()
     libraries = listOf(
-        "net.axay:kspigot:1.19.1",
+        "net.axay:kspigot:1.19.2",
         "de.dasphiller.extensions:extensions:$extensionsVersion"
     )
     prefix = "ExamplePlugin"
