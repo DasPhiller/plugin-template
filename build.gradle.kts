@@ -17,8 +17,8 @@ repositories {
 
 dependencies {
     // PaperMC Dependency
-    paperDevBundle("1.19.4-R0.1-SNAPSHOT")
-
+    paperweight.paperDevBundle("1.19.4-R0.1-SNAPSHOT")
+    
     // KSpigot dependency
     implementation("net.axay", "kspigot", "1.19.2")
     
